@@ -11,6 +11,7 @@ use App\Infrastructure\CurrencyRateNotFoundException;
 use App\Infrastructure\ExchangeRatesApiMock;
 use PHPUnit\Framework\TestCase;
 
+// todo tests for Rates/BinProvider
 final class CalculateCommissionTest extends TestCase
 {
     private CalculateCommissionHandler $calculateCommission;
