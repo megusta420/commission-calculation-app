@@ -22,6 +22,6 @@ final class ExchangeRatesApi implements CurrencyRateProvider
             throw new CurrencyRateNotFoundException();
         }
 
-        return $rates->rates->${$currency};
+        return $rates->rates->{$currency};
     }
 }
