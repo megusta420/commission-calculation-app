@@ -37,6 +37,7 @@ final class CalculateCommission extends Command
             return Command::INVALID;
         }
 
+        // todo use one-line-reader instead of file() call
         foreach (file($input->getArgument('transactions')) as $row) {
             $row = json_decode($row);
 
